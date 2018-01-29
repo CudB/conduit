@@ -6,7 +6,7 @@ from .views import (
 
 
 urlpatterns = [
-    url(r'^users/?$', UserRetrieveUpdateAPIView.as_view()),
-    url(r'^users/register/?$', RegistrationAPIView.as_view()),
+    url(r'^user/?$', UserRetrieveUpdateAPIView.as_view()),
+    url(r'^users/?$', RegistrationAPIView.as_view()),
     url(r'^users/login/?$', LoginAPIView.as_view()),
 ]
